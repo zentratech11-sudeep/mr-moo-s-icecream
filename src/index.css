@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-script: "Caveat", cursive, sans-serif;
+
+  --color-farm-green: #1d3728;
+  --color-farm-green-dark: #14271c;
+  --color-farm-green-light: #284c37;
+  --color-farm-cream: #faf6ed;
+  --color-farm-cream-card: #f6f0e4;
+  --color-farm-burgundy: #881326;
+  --color-farm-burgundy-dark: #6e0d1d;
+  --color-farm-gold: #c59b27;
+}
+
+/* Custom scrollbar and smooth transitions */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #faf6ed;
+}
+
+.font-serif-heading {
+  font-family: var(--font-serif);
+}
+
+.font-script-accent {
+  font-family: var(--font-script);
+}
+
+/* Authentic Yorkshire Farmhouse textured parchment background */
+.bg-farmhouse-canvas {
+  background-color: #faf6ed;
+  background-image: 
+    radial-gradient(rgba(215, 203, 183, 0.35) 0.75px, transparent 0.75px),
+    radial-gradient(rgba(228, 218, 201, 0.4) 0.75px, #faf6ed 0.75px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Card background with subtle warm inner depth */
+.bg-farmhouse-card {
+  background-color: #f6f0e4;
+  border: 1px solid #e7dcce;
+  box-shadow: 0 2px 14px rgba(45, 35, 20, 0.035);
+}
+
+/* Subtle border tokens */
+.border-farm-subtle {
+  border-color: #e8ddcb;
+}

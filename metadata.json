@@ -1,0 +1,6 @@
+{
+  "name": "Mr Moo's Premium Farmhouse Dairy & Parlour",
+  "description": "Award-winning Yorkshire dairy ice cream parlour, farmhouse café, coastal caravan site, and scenic beach walk in Skipsea, East Yorkshire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
